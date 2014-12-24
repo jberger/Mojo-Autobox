@@ -44,7 +44,7 @@ Additionally, for one-liner fun, the class L<ojoBox> may be used to load L<Mojo:
 
 =head1 SOURCE REPOSITORY
 
-L<http://github.com/jberger/Mojo-Autobox> 
+L<http://github.com/jberger/Mojo-Autobox>
 
 =head1 AUTHOR
 
