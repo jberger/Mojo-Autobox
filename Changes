@@ -1,4 +1,7 @@
 Revision history for Perl module Mojo::Autobox
 
+0.02 2014-12-23
+  - Document and test the optional behavior of the string dom method
+
 0.01 2014-12-23
   - Initial release

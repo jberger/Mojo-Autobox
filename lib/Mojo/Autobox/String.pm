@@ -68,6 +68,7 @@ An alias for L</byte_stream>.
 =head2 dom
 
 Returns an instance of L<Mojo::DOM>, constructed from the invocant string.
+Optionally takes a CSS3 selector which is passed to the L<Mojo::DOM> instance's L<find|Mojo::DOM/find> method.
 
 =head2 json
 

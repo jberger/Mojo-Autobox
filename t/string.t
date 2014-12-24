@@ -21,6 +21,10 @@ subtest 'dom method' => sub {
   isa_ok $dom, 'Mojo::DOM', 'right type';
   is $dom->at('a')->text, 'Doit', 'right DOM behavior';
   is $dom->at('a')->{href}->url->host, 'somesite.com', 'chained with url method';
+
+  my $coll = '<a href="http://somesite.com">Doit</a>'->dom('a');
+  isa_ok $coll, 'Mojo::Collection', 'argument is passed to find';
+  is @$coll, 1, 'one record is found';
 };
 
 subtest 'json method' => sub {
