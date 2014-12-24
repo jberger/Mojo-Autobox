@@ -30,11 +30,9 @@ Hash methods for L<Mojo::Autobox>. These also apply to hash references.
 
 =head2 json
 
-Serializes the invovant hash using L<Mojo::JSON/encode_json> and returns the result.
+Serializes the invocant hash using L<Mojo::JSON/encode_json> and returns the result.
 
 =head2 j
 
 An alias for L</json>.
-
-=end
 

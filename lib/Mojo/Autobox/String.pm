@@ -83,5 +83,3 @@ An alias for L</json>.
 
 Returns an instance of L<Mojo::URL>, constructed from the invocant string.
 
-=end
-

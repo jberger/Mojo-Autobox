@@ -45,11 +45,9 @@ Returns an instance of L<Mojo::Collection>, contructed from the elements of the 
 
 =head2 json
 
-Serializes the invovant array using L<Mojo::JSON/encode_json> and returns the result.
+Serializes the invocant array using L<Mojo::JSON/encode_json> and returns the result.
 
 =head2 j
 
 An alias for L</json>.
-
-=end
 
