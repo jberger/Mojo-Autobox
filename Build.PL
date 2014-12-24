@@ -12,6 +12,7 @@ my $build = Module::Build->new(
   configure_requires => { 'Module::Build' => 0.38 },
   requires => {
     'Mojolicious'  => '5.00',
+    'autobox' => 0,
   },
   meta_merge => {
     resources => {
