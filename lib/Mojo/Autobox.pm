@@ -5,7 +5,7 @@ use Mojo::Base -strict;
 our $VERSION = '0.01';
 $VERSION = eval $VERSION;
 
-use parent 'autobox';
+use Mojo::Base 'autobox';
 
 require Mojo::Autobox::String;
 require Mojo::Autobox::Array;
